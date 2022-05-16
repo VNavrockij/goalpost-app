@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA7CAB6C283246A80082F383 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CAB6B283246A80082F383 /* GoalCell.swift */; };
 		FA7CAB6F283254320082F383 /* goalpost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA7CAB6D283254320082F383 /* goalpost.xcdatamodeld */; };
+		FA7CAB712832583D0082F383 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CAB702832583D0082F383 /* GoalType.swift */; };
 		FAF2E0B32830DD9600985523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E0B22830DD9600985523 /* AppDelegate.swift */; };
 		FAF2E0B52830DD9600985523 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E0B42830DD9600985523 /* SceneDelegate.swift */; };
 		FAF2E0B72830DD9600985523 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2E0B62830DD9600985523 /* GoalsVC.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		FA7CAB6B283246A80082F383 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		FA7CAB6E283254320082F383 /* goalpost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpost.xcdatamodel; sourceTree = "<group>"; };
+		FA7CAB702832583D0082F383 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		FAF2E0AF2830DD9600985523 /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF2E0B22830DD9600985523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF2E0B42830DD9600985523 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		FAF2E0CB2830DDE900985523 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				FA7CAB702832583D0082F383 /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				FA7CAB6F283254320082F383 /* goalpost.xcdatamodeld in Sources */,
 				FAF2E0B72830DD9600985523 /* GoalsVC.swift in Sources */,
+				FA7CAB712832583D0082F383 /* GoalType.swift in Sources */,
 				FAF2E0B32830DD9600985523 /* AppDelegate.swift in Sources */,
 				FA7CAB6C283246A80082F383 /* GoalCell.swift in Sources */,
 				FAF2E0B52830DD9600985523 /* SceneDelegate.swift in Sources */,
