@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2C32582834E55500F1623F /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C32572834E55500F1623F /* CreateGoalVC.swift */; };
 		FA7CAB6C283246A80082F383 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CAB6B283246A80082F383 /* GoalCell.swift */; };
 		FA7CAB6F283254320082F383 /* goalpost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA7CAB6D283254320082F383 /* goalpost.xcdatamodeld */; };
 		FA7CAB712832583D0082F383 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7CAB702832583D0082F383 /* GoalType.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA2C32572834E55500F1623F /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
 		FA7CAB6B283246A80082F383 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		FA7CAB6E283254320082F383 /* goalpost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpost.xcdatamodel; sourceTree = "<group>"; };
 		FA7CAB702832583D0082F383 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				FAF2E0B62830DD9600985523 /* GoalsVC.swift */,
+				FA2C32572834E55500F1623F /* CreateGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7CAB6F283254320082F383 /* goalpost.xcdatamodeld in Sources */,
+				FA2C32582834E55500F1623F /* CreateGoalVC.swift in Sources */,
 				FAF2E0B72830DD9600985523 /* GoalsVC.swift in Sources */,
 				FA7CAB712832583D0082F383 /* GoalType.swift in Sources */,
 				FAF2E0B32830DD9600985523 /* AppDelegate.swift in Sources */,
