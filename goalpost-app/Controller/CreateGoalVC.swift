@@ -48,8 +48,8 @@ class CreateGoalVC: UIViewController, UITextViewDelegate {
                 print("variable not create")
                 return }
             finishGoalVC.initData(description: goalTextView.text!, type: goalType)
-            print("Next VC present")
-            presentDetail(finishGoalVC)
+            presentingViewController?.presentSecondaryDetail(finishGoalVC)
+//            presentDetail(finishGoalVC)
         }
     }
     
