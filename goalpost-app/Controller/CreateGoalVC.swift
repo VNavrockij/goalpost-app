@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreData
 
 class CreateGoalVC: UIViewController, UITextViewDelegate {
     
@@ -63,3 +64,4 @@ class CreateGoalVC: UIViewController, UITextViewDelegate {
     }
     
 }
+
